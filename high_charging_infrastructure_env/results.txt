@@ -1,0 +1,57 @@
+Results:
+WORLD_SIZE = 10000
+NUMBER_OF_CHARGING_STATIONS = 20
+NUMBER_OF_TOTAL_CARS = 1000
+LENGTH_OF_SIMULATION = 432000
+ACTIVE LENGTH = 172800
+NUMBER_OF_REPETITIONS = 10
+CAPACITY_PER_CHARGING_STATION = 10
+INFORMATION_TIME_UNIT_STEP_SIZE = 1000
+ADVICE_FOLLOW_RATE_FOR_NON_NEAREST_CS = 0.9
+NORMAL_DISTRIBUTED_DATA_RATE = 0.8
+NUMBER_OF_FAST_CHARGERS = 0.3
+NORMAL_CHARGING_FACTOR = 0.6
+FAST_CHARGING_FACTOR = 0.1
+ 
+Name of EV: EVRandomCS 
+Average waiting time by charging operation: 2141.779259519214 
+Average time on way to cs by charging operation: 3728.0670293033863 
+Average charging time by charging operation: 4614.442358308475 
+Average unproductive time per charging operation: 10484.288647131076 
+ 
+Name of EV: EVNearestCS 
+Average waiting time by charging operation: 34180.46709129512 
+Average time on way to cs by charging operation: 316.54918612880397 
+Average charging time by charging operation: 3407.5944798301484 
+Average unproductive time per charging operation: 37904.61075725407 
+ 
+Name of EV: EVLeastFrequented 
+Average waiting time by charging operation: 6897.979012825495 
+Average time on way to cs by charging operation: 2864.8946754760977 
+Average charging time by charging operation: 4628.342401865527 
+Average unproductive time per charging operation: 14391.21609016712 
+ 
+Name of EV: EVNearestCSWithFreeFastSpot 
+Average waiting time by charging operation: 2683.515408446111 
+Average time on way to cs by charging operation: 1135.783466492744 
+Average charging time by charging operation: 4198.292842002283 
+Average unproductive time per charging operation: 8017.591716941138 
+ 
+Name of EV: EVCombined 
+Average waiting time by charging operation: 3163.802978235968 
+Average time on way to cs by charging operation: 962.8577974144985 
+Average charging time by charging operation: 4171.488954344624 
+Average unproductive time per charging operation: 8298.149729995092 
+ 
+Name of EV: EVRCBestByAverageTime 
+Average waiting time by charging operation: 5497.615803814714 
+Average time on way to cs by charging operation: 1145.3566076294278 
+Average charging time by charging operation: 4148.2152588555855 
+Average unproductive time per charging operation: 10791.187670299727 
+ 
+Name of EV: EVRCEqualDistribution 
+Average waiting time by charging operation: 7301.413996778235 
+Average time on way to cs by charging operation: 1378.0050116341506 
+Average charging time by charging operation: 4091.5052801145516 
+Average unproductive time per charging operation: 12770.924288526938 
+ 
